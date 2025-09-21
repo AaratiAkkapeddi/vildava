@@ -1,0 +1,50 @@
+:root{
+    --red: #a14f3a;
+    --white: #dee2e1;
+    --black:#231811;
+    --font-small: 18px;
+    --font-large: 24px;
+    --space: 25px;
+    --font-family: Arial, sans-serif;
+}
+
+main{
+    max-width: 900px;
+    padding: var(--space);
+    margin:0 auto;
+    text-align: center;
+}
+h1{
+    font-weight: normal;
+    font-size: var(--font-large);
+}
+body{
+    background-color: var(--black);
+    color: var(--white);
+    font-size: var(--font-small);
+    font-family: var(--font-family);
+}
+
+#banner-img{
+    width: 500px;
+     margin: 0 auto;
+     margin-bottom: calc(var(--space) * 2);
+     display: block;
+
+}
+iframe{
+    margin: 0 auto;
+    text-align: center;
+}
+#tour-dates{
+    margin-top: calc(var(--space) * 2);
+}
+#tour-dates ul{
+    text-align: left;
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 0;
+}
+#tour-dates ul li{
+    padding-bottom: var(--space);
+}
