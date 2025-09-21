@@ -2,8 +2,9 @@
     --red: #a14f3a;
     --white: #dee2e1;
     --black:#231811;
-    --font-small: 18px;
+    --font-body: 18px;
     --font-large: 24px;
+    --font-small: 16px;
     --space: 25px;
     --font-family: Arial, sans-serif;
 }
@@ -14,27 +15,60 @@ main{
     margin:0 auto;
     text-align: center;
 }
+
 h1{
     font-weight: normal;
     font-size: var(--font-large);
+    margin-bottom: calc(var(--space)/4);
+}
+h1 + em{
+    font-size: var(--font-small);
+    display: block;
+    margin-bottom: var(--space);
+}
+h1 + em + span{
+    font-size: var(--font-small);
+    margin-bottom:0;
+}
+nav{
+    font-size: var(--font-small);
+    margin-top: calc(var(--space)/4);
+    margin-bottom: var(--space);
+}
+a, a:link, a:visited{
+    color: var(--white);
 }
 body{
     background-color: var(--black);
     color: var(--white);
-    font-size: var(--font-small);
+    font-size: var(--font-body);
     font-family: var(--font-family);
 }
 
 #banner-img{
     width: 500px;
      margin: 0 auto;
-     margin-bottom: calc(var(--space) * 2);
      display: block;
+     max-width: 100%;
+     margin-bottom: 5px;
 
+}
+#banner-img + em{
+    display: block;
+    font-size: var(--font-small);
+    position: relative;
+    margin-bottom: var(--space);
+}
+#banner-img + em {
+    display: block;
+    margin-bottom: calc(var(--space) * 2);
+    font-size: var(--font-small);
+    position: relative;
 }
 iframe{
     margin: 0 auto;
     text-align: center;
+    margin-bottom: var(--space);
 }
 #tour-dates{
     margin-top: calc(var(--space) * 2);
