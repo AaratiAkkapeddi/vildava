@@ -70,15 +70,15 @@ iframe{
     text-align: center;
     margin-bottom: var(--space);
 }
-#tour-dates{
+#tour-dates, #past-tour-dates{
     margin-top: calc(var(--space) * 2);
 }
-#tour-dates ul{
+#tour-dates ul, #past-tour-dates ul{
     text-align: left;
     display: inline-block;
     list-style-type: none;
     padding-left: 0;
 }
-#tour-dates ul li{
+#tour-dates ul li, #past-tour-dates ul li{
     padding-bottom: var(--space);
 }
