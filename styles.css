@@ -82,3 +82,7 @@ iframe{
 #tour-dates ul li, #past-tour-dates ul li{
     padding-bottom: var(--space);
 }
+
+body.death-content p{
+    text-align: left;
+}
