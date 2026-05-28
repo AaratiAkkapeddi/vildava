@@ -86,3 +86,6 @@ iframe{
 body.death-content p{
     text-align: left;
 }
+body.death-content img{
+    max-width: 400px;
+}
